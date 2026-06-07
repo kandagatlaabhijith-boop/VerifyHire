@@ -3,7 +3,7 @@
 #  v2.0
 # ============================================================
 
-from part1_dataset_similarity import extract_features
+from backend.part1_dataset_similarity import extract_features 
 
 def explain_prediction(text: str) -> dict:
     """

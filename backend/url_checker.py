@@ -5,7 +5,7 @@
 
 import re
 from urllib.parse import urlparse
-from trust_layer import BRAND_DOMAINS
+from backend.trust_layer import BRAND_DOMAINS
 
 # Common URL shortener domains
 SHORTENER_DOMAINS = {

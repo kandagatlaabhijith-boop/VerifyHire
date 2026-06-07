@@ -4,7 +4,7 @@
 # ============================================================
 
 import re
-from normalization import normalize_text
+from backend.normalization import normalize_text
 
 
 # ── Negation phrases that CANCEL payment signals ────────────

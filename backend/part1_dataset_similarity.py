@@ -5,8 +5,8 @@
 # ============================================================
 
 import re
-from payment_detector import detect_negation, detect_upi
-from normalization import normalize_text
+from backend.payment_detector import detect_negation, detect_upi
+from backend.normalization import normalize_text
 
 
 # ── Stopwords for text preprocessing ────────────────────────

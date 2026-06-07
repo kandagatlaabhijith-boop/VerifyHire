@@ -13,15 +13,14 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from typing import Optional
 
-# Import modules
-from part2_ml_model import EnsembleModel
-from url_checker import analyze_url
-from payment_detector import detect_payment, detect_negation
-from explainability import explain_prediction
-from trust_layer import get_domain_trust
-from part1_dataset_similarity import extract_features
-from normalization import normalize_text
-
+# Import modules (fixed for package context)
+from backend.part2_ml_model import EnsembleModel
+from backend.url_checker import analyze_url
+from backend.payment_detector import detect_payment, detect_negation
+from backend.explainability import explain_prediction
+from backend.trust_layer import get_domain_trust
+from backend.part1_dataset_similarity import extract_features
+from backend.normalization import normalize_text
 # ── Create the FastAPI app ──────────────────────────────────
 app = FastAPI(title="Internship Risk Analyzer API v2.0")
 

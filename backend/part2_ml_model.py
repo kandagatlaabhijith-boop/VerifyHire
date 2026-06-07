@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
 from collections import defaultdict
-from part1_dataset_similarity import preprocess, extract_features
-
+from backend.part1_dataset_similarity import preprocess, extract_features
 
 class NaiveBayesClassifier:
 
