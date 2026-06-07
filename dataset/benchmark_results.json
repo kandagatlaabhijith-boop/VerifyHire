@@ -1,0 +1,157 @@
+{
+  "overall": {
+    "accuracy": 99.83,
+    "precision": 99.6,
+    "recall": 100.0,
+    "f1": 99.8,
+    "fpr": 0.29
+  },
+  "slices": {
+    "adversarial_obfuscation": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 50,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 50,
+      "is_scam": true
+    },
+    "campus_ambassador": {
+      "accuracy": 100.0,
+      "precision": 100,
+      "recall": 100,
+      "f1": 100.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 50,
+      "fn": 0,
+      "total": 50,
+      "is_scam": false
+    },
+    "captcha_scam": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 50,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 50,
+      "is_scam": true
+    },
+    "course_promotion": {
+      "accuracy": 100.0,
+      "precision": 100,
+      "recall": 100,
+      "f1": 100.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 50,
+      "fn": 0,
+      "total": 50,
+      "is_scam": false
+    },
+    "linkedin_networking": {
+      "accuracy": 100.0,
+      "precision": 100,
+      "recall": 100,
+      "f1": 100.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 50,
+      "fn": 0,
+      "total": 50,
+      "is_scam": false
+    },
+    "recruiter_update": {
+      "accuracy": 100.0,
+      "precision": 100,
+      "recall": 100,
+      "f1": 100.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 50,
+      "fn": 0,
+      "total": 50,
+      "is_scam": false
+    },
+    "registration_fee_scam": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 50,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 50,
+      "is_scam": true
+    },
+    "startup_hiring": {
+      "accuracy": 100.0,
+      "precision": 100,
+      "recall": 100,
+      "f1": 100.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 50,
+      "fn": 0,
+      "total": 50,
+      "is_scam": false
+    },
+    "telegram_legit": {
+      "accuracy": 100.0,
+      "precision": 100,
+      "recall": 100,
+      "f1": 100.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 50,
+      "fn": 0,
+      "total": 50,
+      "is_scam": false
+    },
+    "unseen_scam": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 50,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 50,
+      "is_scam": true
+    },
+    "upi_scam": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 50,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 50,
+      "is_scam": true
+    },
+    "whatsapp_onboarding": {
+      "accuracy": 98.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1": 0,
+      "tp": 0,
+      "fp": 1,
+      "tn": 49,
+      "fn": 0,
+      "total": 50,
+      "is_scam": false
+    }
+  },
+  "unseen_scam_recall": 100.0,
+  "total_samples": 600
+}
